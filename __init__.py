@@ -16,8 +16,6 @@ from flask.ext.login import LoginManager, login_user, login_required
 from flask.ext.login import logout_user, current_user
 from flask.ext.mongokit import MongoKit
 
-from helpers.filters import get_facets
-
 from patron.forms import LoginForm, RegisterForm
 from patron.models import Patron
 
